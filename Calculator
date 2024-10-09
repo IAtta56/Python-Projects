@@ -1,0 +1,11 @@
+a = input("Enter the operation you want(+,-,/,*)\n")
+b = int(input("Enter First Number\n"))
+c = int(input("Enter Second Number\n"))
+if a == '*' or a == "Multiply":
+    print("your Answer Is",c*b)
+elif a == '+' or a == "Addition":
+    print("your Answer Is",b+c)
+elif a == '-' or a =="Substract":
+    print("your Answer Is",b-c)
+elif a =='/' or a == "Divide":
+    print("your Answer Is",b/c)
