@@ -1,0 +1,16 @@
+import random
+random_number = random.randint(10)
+guesses = 0
+while True:
+        guesses += 1
+        a = int(input("Guess the number between 1-10\n"))
+        if a > random_number:
+             print("Its lower then you think\n")
+             continue
+        elif a < random_number:
+            print("its a bit higher\n")
+            continue
+        else:
+            print("You Got it its",random_number)
+            break
+print("Number of gueses YOU took",guesses)
